@@ -1,11 +1,5 @@
 # Arabic Document Search Engine
 
-<p float="center">
-  <img src="chrome-capture-2025-1-25.gif" />
-</p>
-
-## Overview
-
 The **Arabic Document Search Engine** is a powerful search tool designed for querying large databases of Greek documents. This project utilizes advanced natural language processing (NLP) and machine learning techniques to provide accurate search results from a selection of pre-indexed texts. The system is built with flexibility in mind, allowing users to specify various search parameters and customize the number of results they want to retrieve.
 
 Users can input a query in Greek, and the system will return the most relevant sentences from documents based on the context of the search term, highlighting matching words and citations within the text. 
@@ -36,7 +30,7 @@ Users can input a query in Greek, and the system will return the most relevant s
 
 
 ## Config file
-Before starting the creation of the index, database and launching the UI, it is necessary to configure some parameters. Go to `config/index_config.py` and edit the following fields:
+Before starting the creation of the index, database and launching the UI, it is necessary to configure some parameters. See the available parameters in `config/index_config.py`
 
 
 
